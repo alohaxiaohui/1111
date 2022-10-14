@@ -1,0 +1,181 @@
+/*
+ *
+ * ===== Brand Colors =====
+ * Primary #993366
+ * Secondary #993366
+ * Background #993366
+ * Heading #993366
+ * Body #993366
+ * Border #ccc
+ */
+
+body {
+  background: #ffe6e6;
+  color: #993366;
+  font-family: -pink-system,BlinkMacSystemFont,Helvetica Neue,PingFang,Microsoft YaHei,Source Han Sans TC,Noto Sans CJK TC,WenQuanYi Micro Hei,sans-serif;
+  border-top: 9px solid #ffcccc;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, #ffcccc 0%, #ffcccc 100%);
+}
+
+.background-text {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  font-size: 120px;
+  font-family: serif;
+  font-style: italic;
+  letter-spacing: 10px;
+  color: #993366;
+  width: 95%;
+  overflow: hidden;
+}
+
+section {
+  width: 600px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  position: relative;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: scale-top;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.card {
+  background: #fff;
+  box-sizing: border-box;
+  margin-top: 80px;
+  padding: 55px 20px 10px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+.card h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+.card h2 {
+  font-size: 1rem;
+  padding-bottom: 20px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
+  color: #993366;
+}
+.card h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.card h3 + p {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #993366;
+  margin-top: 0;
+}
+.card a {
+  color: #993366;
+}
+.card a:hover {
+  opacity: 0.5;
+}
+
+.link h2,
+.social h2 {
+  font-size: 1.25rem;
+}
+
+.link {
+  text-align: center;
+}
+.link a {
+  display: block;
+  background: #fff;
+  color: #993366;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.link a:hover {
+  background: #993366;
+  color: #fff;
+  border-color: #993366;
+}
+.link a + h2 {
+  margin-top: 30px;
+}
+
+.social {
+  text-align: center;
+}
+.social a {
+  color: #993366;
+}
+.social a:not(:last-child) {
+  margin-right: 5px;
+}
+.social a:hover {
+  opacity: 0.5;
+}
+.social svg {
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+  color: #993366;
+}
+footer a {
+  color: #993366;
+}
+
+@media only screen and (min-width: 768px) {
+  .background-text {
+    font-size: 220px;
+  }
+  .card {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .background-text {
+    font-size: 250px;
+  }
+  .card {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .background-text {
+    font-size: 300px;
+  }
+  .card {
+    margin-top: 200px;
+  }
+}
